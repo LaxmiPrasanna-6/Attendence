@@ -1,4 +1,4 @@
-const API_ROOT = import.meta.env.VITE_API_ROOT || 'https://attendence-7ofm.onrender.com/api';
+const API_ROOT ='https://attendence-7ofm.onrender.com/api';
 
 const getToken = () => localStorage.getItem('token');
 
